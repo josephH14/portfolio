@@ -2,11 +2,21 @@ h1{
     text-align: center
 }
 
-h1{
-    background-color: lightgray
-}
 
 .card{
     width: 100%;
-    background-color: lightgray
+}
+
+
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #76b852, #8dc26f); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #76b852, #8dc26f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.about-text {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 6px;
 }
