@@ -20,3 +20,22 @@ body {
     text-align: center;
     letter-spacing: 6px;
 }
+
+.about-body {
+    background: lightblue 
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 300px ;
+     border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+}
+
+.about-desc {
+    font-size: 26px
+}
