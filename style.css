@@ -9,11 +9,37 @@ h1{
 
 
 body {
+  padding-left: 130px;
   background: #76b852; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #76b852, #8dc26f); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #76b852, #8dc26f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+nav {
+    width: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    color: green;
+}
+
+nav a i {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+}
 
 .about-text {
     font-size: 36px;
