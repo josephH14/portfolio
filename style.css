@@ -10,7 +10,8 @@ h1{
 
 
 body {
-background-image: url("images/portfolio.gif")
+    background-image: url("images/portfolio.gif");
+    padding: 0 75px 0 150px;
 }
 
 nav {
