@@ -11,3 +11,4 @@ function submitContractForm() {
         alert('Thank you for submitting the form');
     }  
 }
+
