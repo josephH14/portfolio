@@ -10,7 +10,7 @@ h1{
 
 
 body {
-    background-image: url("images/portfolio.gif");
+    background-image: url("../../images/portfolio.gif");
     padding: 0 75px 0 150px;
 }
 
@@ -21,17 +21,24 @@ nav {
     top: 0;
     bottom: 0;
     background-color: black;
-}
-nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-}
-nav a:hover {
-    color: blue;
-    
+    a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        &:hover {
+            color: blue;
+            i {
+                -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+                -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+            }
+        }
+    }
 }
 
 nav a i {
@@ -47,11 +54,10 @@ nav a i {
     letter-spacing: 6px;
     padding: 127px;
     color: white
-    
 }
 
 .about-body {
-   background-image: url("images/portfolio.gif");
+   background-image: url("../../images/portfolio.gif");
 }
 
 img {
