@@ -1,0 +1,30 @@
+nav {
+    width: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black; 
+    a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px; 
+        :hover {
+            color: blue; 
+            i {
+                display: block;
+                width: 100%;
+                text-align: center;
+                font-size: 45px;
+                -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+                -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both; 
+            }
+        }
+    }
+}

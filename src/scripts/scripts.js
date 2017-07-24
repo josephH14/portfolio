@@ -1,14 +1,9 @@
-function myFunction() {
-    alert("Your form has been submitted!");
-}
+$(document).ready(function() {
+    // ON LOAD
+    setProjects();
+    backgroundChanger();
 
-function submitContractForm() {
-    var x = document.forms["contactForm"]["email"].value;
-    if (x == "") {
-        alert("Email must be filled out");
-        return false;
-    } else {
-        alert('Thank you for submitting the form');
-    }  
-}
-
+    // EVENT BINDING
+    $('#contactForm').on('submit', submitContactForm);
+    $("#profile-picture").on('click', mindBlown);
+});
